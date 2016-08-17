@@ -6,10 +6,6 @@ a:hover{ color: #3e819a;}
 i,em{font-style: normal;}
 p{
 	display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
 }
 body{
 	font-family: "微软雅黑";
@@ -33,10 +29,15 @@ body{
 	margin: 0 auto;
 	padding-top: 4px;
 }
+.search_left{
+	float: left;
+}
+.search_right{
+	float: right;
+}
 .old_version{
 	float: left;
 	display: block;
-	width: 28px;
 	height: 21px;
 	line-height: 21px;
 	margin-right: 8px;
@@ -93,21 +94,26 @@ body{
 .logo_list li{
 	float: left;
 	width: 95px;
-	height: 35px;
-	line-height: 35px;
+	line-height: 40px;
 	margin-left: 8px;
 }
-.logo_list li .login_vpn,.logo_list li .call_us{
+.logo_list li .login_vpn,.logo_list li .call_us,.logo_list li .login_index{
 	float: left;
 	display: block;
-	height:35px ;
+	height: 40px;
 	padding-left: 45px;
+}
+.logo_list li .login_index{
+	background: url(../images/bg2.png) no-repeat -33px -5px;
 }
 .logo_list li .login_vpn{
 	background: url(../images/bg2.png) no-repeat -140px -5px;
 }
 .logo_list li .call_us{
 	background: url(../images/bg2.png) no-repeat -248px -5px;
+}
+.logo_list li .login_index:hover{
+	background: url(../images/bg2.png) no-repeat -33px -51px;
 }
 .logo_list li .login_vpn:hover{
 	background: url(../images/bg2.png) no-repeat -140px -51px;
@@ -181,12 +187,17 @@ body{
 	margin: 0 auto;
 	overflow: hidden;
 	z-index: 1;
+	left: 50%;
+	margin-left: -674.5px;
+}
+.banner_list2{
+	width: 1281px;
+	margin-left: -640.5px;
 }
 .banner_ul{
 	position: relative;
 	width: 1000%;
 	height: 534px;
-	
 }
 .banner_ul li{
 	float: left;
@@ -196,7 +207,9 @@ body{
 	top: 0;
 	left: 0;
 }
-
+.banner2,.banner_ul2{
+	height:428px
+}
 .banner_left,.banner_right{
 	position: absolute;
 	width: 113px;
@@ -493,6 +506,7 @@ body{
 .information{
 	width: 1005px;
 	margin: 0 auto;
+	margin-top: 5px;
 }
 .infor{
 	float: left;
@@ -718,4 +732,82 @@ body{
 	text-indent: -99em;
 	overflow: hidden;
 	cursor: pointer;
+}
+.overview_main{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	height: auto;
+	margin-top: -86px;
+	z-index: 9;
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7FCACACA', endColorstr='#7FCACACA');background:rgba(202,202,202,0.8);
+}
+.o_main_menu{
+	border-bottom: #0086c9 4px solid;
+}
+.o_main_menu_ul{
+	width: 690px;
+	margin: 0 auto;
+}
+.o_main_menu_ul li{
+	float: left;
+	width: 230px;
+	height: 47px;
+	text-align: center;
+	color: #000000;
+	padding-top: 13px;
+	cursor: pointer;
+}
+
+.o_main_menu_ul .bluebg{
+	background: #006bb6;
+	color: #ffffff;
+}
+.o_main_menu_ul span{
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	letter-spacing: 4px;
+}
+.english{
+	color: #818181;
+}
+.o_main_menu_ul li:hover,.o_main_menu_ul li:hover .english{
+	background: #006bb6;
+	color: #ffffff;
+}
+
+.Q_nav_ul{
+	float: right;
+	width: 234px;
+}
+.Q_nav_ul li{
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin-right: 10px;
+	color: #767676;
+}
+.Q_nav_ul li a{
+	color: #767676;
+}
+.nav_ul01{
+	padding-top: 38px;
+	padding-bottom: 20px;
+}
+.nav_ul01 h3{
+	font-size: 17px;
+	color: #0074bd;
+	width: 490px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 26px;
+}
+.text{
+	width: 823px;
+	margin: 0 auto;
+}
+.text p{
+	line-height: 22px;
+	font-size: 13px;
 }

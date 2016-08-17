@@ -61,9 +61,9 @@ $(function(){
         var t = nls.eq(nowpos).addClass("h100");//给现在的位置添加h100样式
         $(".min:lt(" + (nowpos+1) + ")").addClass("chide");//:lt 选择器选取带有小于指定 index 值的元素。 index 值从 0 开始。
         if (nowpos == 4) {
-            $(".new_right").css("height", "305");
+            $(".new_right").css("height","305px");
         } else {
-            $(".new_right").css("height", "295");
+            $(".new_right").css("height", "295px");
         }
         $(".new_right").hide();
         var content = $(this).attr("model");
@@ -104,5 +104,19 @@ $(function(){
 		else{
 			$(".theTop").fadeOut();
 		}
+	});
+	
+	$(".o_main_menu_ul li").click(function(){
+		if($(this).hasClass("bluebg")){
+			return;
+		};
+		
+		var oldpos,nowpos;
+		nowpos = $(this).index();
+		oldpos = $(".bluebg").index();
+		$(".o_main_menu_ul li").eq(nowpos).addClass("bluebg");
+		$(".o_main_menu_ul li").eq(nowpos).find("span:last").removeClass();
+		$(".o_main_menu_ul li").eq(oldpos).find("span:last").addClass("english");
+		$(".o_main_menu_ul li").eq(oldpos).removeClass();
 	});
 });
