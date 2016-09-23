@@ -24,7 +24,7 @@ body{
 	background: #444647;
 }
 .search{
-	width: 1005px;
+	width: 980px;
 	height: 26px;
 	margin: 0 auto;
 	padding-top: 4px;
@@ -71,7 +71,7 @@ body{
 	background: url(../images/logo_bg.png) repeat-x;
 }
 .logo_main{
-	width: 1005px;
+	width: 980px;
 	margin: 0 auto;
 }
 .logo_main a{
@@ -131,13 +131,13 @@ body{
 	background: #f7f9f9;
 }
 .menu_list{
-	width: 1005px;
+	width: 980px;
 	margin: 0 auto;
 }
 .menu_ul li{
 	float: left;
 	position: relative;
-	width: 78px;
+	width: 75px;
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
@@ -178,26 +178,23 @@ body{
 
 .banner{
 	width: 100%;
-	height: 534px;
+	height: 390px;
 	background: #ffffff;
 }
 .banner_list{
 	position: relative;
-	width: 1349px;
+	width: 980px;
 	margin: 0 auto;
 	overflow: hidden;
 	z-index: 1;
-	left: 50%;
-	margin-left: -674.5px;
 }
 .banner_list2{
-	width: 1281px;
-	margin-left: -640.5px;
+	width: 980px;
 }
 .banner_ul{
 	position: relative;
-	width: 1000%;
-	height: 534px;
+	width: 100%;
+	height: 390px;
 }
 .banner_ul li{
 	float: left;
@@ -206,6 +203,7 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
+	height: 100%;
 }
 .banner2,.banner_ul2{
 	height:428px
@@ -234,10 +232,10 @@ body{
 	background: #ffffff;
 }
 .scroll_bar{
-	width: 999px;
+	width: 976px;
 	height: 16px;
 	margin: 0 auto;
-	padding: 9px 3px 10px 3px;
+	padding: 9px 0 10px 3px;
 }
 .scroll_bar .scroll_text{
 	float: left;
@@ -260,12 +258,12 @@ body{
 }
 .time{
 	float: right;
-	width: 141px;
+	width: 20%;
 	height: 16px;
 	line-height: 16px;
 }
 .lac_news{
-	width: 1005px;
+	width: 980px;
 	margin: 0 auto;
 }
 .news_t_l{
@@ -297,7 +295,7 @@ body{
 }
 .news_t_r{
 	float: right;
-	width: 72px;
+	width: 14%;
 	height: 27px;
 	line-height: 27px;
 }
@@ -305,7 +303,7 @@ body{
 	color: #ef872f;
 }
 .new_box{
-	width: 1005px;
+	width: 980px;
 	height: 305px;
 	margin: 0 auto;
 	position: relative;
@@ -332,7 +330,7 @@ body{
 	width: 116px;
 	background: #f5f5f5;
     position: absolute;
-    width: 114px;
+    width: 89%;
     height: 105px;
     top: 0px;
     left: -15px;
@@ -504,7 +502,7 @@ body{
     box-shadow: 2px 2px 8px #CBC4C4;
 }
 .information{
-	width: 1005px;
+	width: 980px;
 	margin: 0 auto;
 	margin-top: 5px;
 }
@@ -512,7 +510,7 @@ body{
 	float: left;
 	width: 303px;
 	height: 283px;
-	margin: 0 13px 7px 17px;
+	margin: 0px 3px 7px 17px;
 }
 .news_t_l .infor_b{
 	color: #004d9d;
@@ -561,7 +559,7 @@ body{
 	background:#f6650e;
 }
 .links{
-	width: 1005px;
+	width: 980px;
 	margin: 0 auto;
 }
 .link_title{
@@ -574,7 +572,7 @@ body{
 }
 .l_box_l{
 	float: left;
-	width: 293px;
+	width: 27.5%;
 	height: 219px;
 	margin-left: 10px;
 }
@@ -635,10 +633,10 @@ body{
 }
 .l_box_r{
 	float: left;
-	width: 680px;
+	width: 70%;
 	padding-left: 14px;
-    background: #f5f5f5;
-    padding-bottom: 4px;
+	background: #f5f5f5;
+	padding-bottom: 4px;
 }
 .l_box_r span{
 	display: inline-block;
@@ -672,7 +670,7 @@ body{
 	background: #0052a5;
 }
 .footer_main{
-	width: 1005px;
+	width: 980px;
 	margin: 0 auto;
 }
 .copy{
@@ -735,7 +733,7 @@ body{
 }
 .overview_main{
 	position: relative;
-	width: 1000px;
+	width: 980px;
 	margin: 0 auto;
 	height: auto;
 	margin-top: -86px;
